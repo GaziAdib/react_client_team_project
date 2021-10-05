@@ -1,13 +1,18 @@
-import React from 'react'
-import { Card } from 'react-bootstrap'
+import React, {useEffect, useState} from 'react'
+import { Card, Button } from 'react-bootstrap'
 import '../index.css';
 
 
 const Team = ({ team }) => {
+
+
+
     return (
         <>
-            
-            
+
+        
+       
+        
         <Card className='m-2 p-1 rounded'>
             <Card.Body>
                 <Card.Title>{team['team-full']}</Card.Title>
